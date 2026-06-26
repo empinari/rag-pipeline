@@ -46,5 +46,5 @@ def run_rag_pipeline(query_text):
     print("===================\n")
 
 if __name__ == "__main__":
-    user_question = "What is the formal definition of machine learning according to Tom Mitchell?"
+    user_question = input("Ask a question about your documents: ")
     run_rag_pipeline(user_question)
