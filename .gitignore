@@ -1,0 +1,11 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local vector databases / data paths
+qdrant_local/
+qdrant_local_v2/
+
+# Environment files
+.env
